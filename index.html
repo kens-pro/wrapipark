@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <!-- GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M5FLHD7469"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+    gtag('config', 'G-M5FLHD7469');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>【ドレミぱーく先行】Wrapi 撮影協力キャンペーン｜トリイミュージック</title>
+  <meta name="description" content="ドレミぱーく生徒・卒業生ご家族 先着5組限定。Wrapi（滋賀発アートピアノ）の設置場所で、親子写真や演奏風景の撮影にご協力ください。ご参加の方にQUOカードまたは平和堂商品券を進呈し、写真データもプレゼントします。" />
+  <style>
+    :root{
+      --brand:#0ea5e9; --brand-dark:#0284c7; --ink:#0f172a; --sub:#475569; --bg:#f8fafc; --card:#ffffff;
+      --ok:#16a34a; --warn:#f59e0b; --error:#ef4444; --radius:16px; --shadow:0 6px 24px rgba(2,8,23,.08);
+      --border:#e2e8f0;
+    }
+    *,*::before,*::after{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,'Noto Sans JP','Hiragino Kaku Gothic ProN','Hiragino Sans',YuGothic,'Meiryo',sans-serif;color:var(--ink);background:var(--bg)}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{opacity:.9}
+    .container{max-width:1000px;margin-inline:auto;padding:24px}
+    .hero{position:relative;padding:64px 0;overflow:hidden;text-align:center}
+    .hero::before{content:'';position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1513861810402-53342bf5bd2b?q=80&w=2069&auto=format&fit=crop');background-size:cover;background-position:center;z-index:1}
+    .hero::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(224,242,254,.86),rgba(240,249,255,.86));z-index:2}
+    .hero .container{position:relative;z-index:3}
+    .badge{display:inline-flex;gap:10px;align-items:center;background:#fff;border:1px solid var(--border);color:var(--ink);border-radius:999px;padding:12px 24px;font-weight:700;font-size:18px;box-shadow:var(--shadow)}
+    .hero h1{font-size:clamp(24px,3.6vw,42px);line-height:1.2;margin:16px 0 8px}
+    .hero p{color:var(--sub);font-size:clamp(14px,2.2vw,18px);margin:0 0 16px}
+    .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px;justify-content:center}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 18px;border-radius:12px;border:1px solid transparent;font-weight:700;cursor:pointer;transition:.2s;white-space:nowrap}
+    .btn-primary{background:var(--brand);color:#fff}
+    .btn-primary:hover{background:var(--brand-dark)}
+    .btn-outline{background:#fff;border:1px solid var(--border);color:var(--ink)}
+    .cta-row .btn{width:240px}
+    .grid{display:grid;gap:16px}
+    @media(min-width:900px){.grid-2{grid-template-columns:repeat(2,1fr)}.grid-3{grid-template-columns:repeat(3,1fr)}}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px}
+    .card h3{margin:0 0 10px;font-size:20px}
+    /* ▼ 以下を追加 ▼ */
+    .card img {
+      width: calc(100% + 40px); /* カードのpaddingを考慮して幅を広げる */
+      margin: -20px -20px 16px -20px; /* 上左右の余白を消し、下に余白を作る */
+      height: 160px;
+      object-fit: cover; /* 画像が引き伸ばされないように調整 */
+      border-radius: var(--radius) var(--radius) 0 0; /* カード上部の角丸に合わせる */
+    }
+    /* ▲ ここまで追加 ▲ */
+    /* ▼ 以下を追加 ▼ */
+    .card-link {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
+    .card {
+      transition: transform .2s, box-shadow .2s;
+    }
+    .card-link:hover .card {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 30px rgba(2, 8, 23, .12);
+    }
+    .address {
+      font-size: 13px;
+      color: var(--sub);
+      margin-top: 10px;
+    }
+    /* ▲ ここまで追加 ▲ */
+    .list{margin:0;padding-left:18px;color:var(--sub)}
+    .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}
+    .kpi{background:#fff;border:1px dashed #bae6fd;border-radius:12px;padding:12px;text-align:center}
+    .kpi b{font-size:20px;display:block}
+    .note{font-size:13px;color:var(--sub)}
+    .section{margin-top:36px}
+    .section h2{font-size:22px;margin:0 0 16px;position:relative;padding-left:14px}
+    .section h2::before{content:'';position:absolute;left:0;top:50%;transform:translateY(-50%);width:4px;height:22px;background-color:var(--brand);border-radius:4px}
+    form{display:grid;gap:12px}
+    label{font-weight:600}
+    input,select,textarea{width:100%;padding:12px;border:1px solid #cbd5e1;border-radius:10px;font-size:16px}
+    .helper{font-size:12px;color:var(--sub)}
+    .footer{margin-top:36px;color:var(--sub);font-size:13px}
+    .hidden{display:none}
+    .success{border:1px solid #bbf7d0;background:#f0fdf4;color:#14532d;border-radius:12px;padding:12px}
+    .error{border:1px solid #fecaca;background:#fef2f2;color:#7f1d1d;border-radius:12px;padding:12px}
+    .terms{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px 20px;cursor:pointer;transition:background-color .2s;font-size:14px;color:var(--sub)}
+    .terms:hover{background-color:#f8fafc}
+    .terms input[type="checkbox"]{width:1.35em;height:1.35em;flex-shrink:0}
+    .photo-samples{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .photo-samples img{width:100%;height:180px;object-fit:cover;border-radius:12px;border:1px solid var(--border);box-shadow:var(--shadow)}
+    .sticky-cta{padding-top:12px;text-align:center}
+    .sticky-cta .btn{width:320px;max-width:100%}
+    @media (max-width: 768px){
+      .sticky-cta{position:sticky;bottom:0;background:rgba(248,250,252,.92);backdrop-filter:saturate(150%) blur(6px);border-top:1px solid var(--border);padding:10px 14px;padding-bottom:calc(10px + env(safe-area-inset-bottom));z-index:50}
+      .sticky-cta .btn{width:100%;margin:0}
+      .photo-samples{grid-template-columns:1fr 1fr}
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <span class="badge">先着5組｜ドレミぱーく先行</span>
+      <h1>世界初ラッピングピアノ「Wrapi®（ラピ）」<br><strong>親子フォト＆演奏シーン</strong>撮影協力のお願い</h1>
+      <p><strong>この撮影会の目的：</strong>世界初ラッピングピアノ「Wrapi®（ラピ）」の魅力を、親子の物語とともに広く届けること。ご協力いただいた写真は、公式SNS・Web・広報資料、地域メディア等で紹介し、Wrapiの認知拡大につなげます。</p>
+      <p>親子で世界に一台しかないカラフルなピアノとの思い出を。ドレミぱーく生徒・卒業生ご家族先行で、Wrapi設置場所にて撮影にご協力いただける方を募集します。</p>
+      <div class="kpis">
+        <div class="kpi"><b>対象</b>ドレミぱーく生徒・卒業生とご家族</div>
+        <div class="kpi"><b>場所</b>草津・竜王・近江今津（下記）</div>
+        <div class="kpi"><b>特典</b>3,000円分のQUOカード or 同、平和堂商品券</div>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#entry" id="cta_form">応募フォームへ</a>
+        <a class="btn btn-outline" href="https://www.wrapi.jp/" target="_blank" rel="noopener">Wrapiとは</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="how" class="section">
+      <h2>参加方法（かんたん2ステップ）</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>① 応募フォーム送信</h3>
+          <p class="note">本ページ下部のフォームから、保護者さま情報と希望場所・日時候補をご入力ください。</p>
+          <a class="btn btn-outline" href="#entry">応募フォームへ進む</a>
+        </div>
+        <div class="card">
+          <h3>② 日程を調整して撮影</h3>
+          <p class="note">撮影日のご案内とご相談 → 現地撮影（所要20〜30分予定）。写真データは後日記念にお送りいたします。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>撮影イメージ</h2>
+      <div class="photo-samples">
+        <img src="images/277805056_115559267760194_4650806892628471550_n.jpg" alt="駅とピアノの全景例">
+        <img src="images/DSC_0378.JPG" alt="演奏シーン例（手元）">
+        <img src="images/259881289_926347844754278_2468654572037344587_n.jpg" alt="ディテール例（鍵盤まわり）">
+      </div>
+      <ul class="list" style="margin-top:12px">
+        <li>駅や施設の雰囲気が分かる「全景」</li>
+        <li>お兄ちゃん・お姉ちゃんが弾く「演奏シーン」や、1〜3歳は親子で椅子に座る「記念ショット」でもOK</li>
+        <li>Wrapiデザインが伝わる「近接ディテール」</li>
+      </ul>
+    </section>
+
+    <section class="section" id="incentives">
+      <h2>参加特典</h2>
+      <!-- 紹介キャンペーンのインセンティブ表現を流用 -->
+      <div class="incentive-card card" style="padding:40px;">
+        <div class="incentive-section" style="display:flex;gap:30px;align-items:center;">
+          <div class="incentive-images" style="flex:1;max-width:300px;display:flex;flex-direction:column;gap:15px">
+            <img src="images/st010080.png" alt="QUOカード" style="border-radius:8px;box-shadow:var(--shadow);max-width:100%;height:auto">
+            <img src="images/Gemini_Generated_Image_2eyhk22eyhk22eyh.png" alt="平和堂商品券" style="border-radius:8px;box-shadow:var(--shadow);max-width:100%;height:auto">
+          </div>
+          <div class="incentive-details" style="flex:2">
+            <h3 style="font-size:1.5em;color:var(--brand);margin:0 0 15px;">🎁 ご参加のご家族への特典</h3>
+            <p>撮影にご協力いただいた方へ、以下のいずれかを進呈します。</p>
+            <ul class="benefit-list" style="list-style:none;padding-left:0;margin:0 0 16px;">
+              <li>✅ <strong>QUOカード 3,000円分</strong> または、</li>
+              <li>✅ <strong>平和堂商品券 3,000円分</strong></li>
+            </ul>
+            <p class="note">※特典額は教室の紹介キャンペーン規定に準じます。</p>
+            <hr class="incentive-divider" style="border:none;border-top:1px solid var(--border);margin:22px 0">
+            <h4 style="margin:0 0 8px;">📸 さらに：</h4>
+            <ul class="list" style="margin:0;">
+              <li><strong>撮影した写真データ（1〜3点）を記念にプレゼント</strong></li>
+              <li>Wrapi公式SNSでご紹介（ご希望の方）</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section class="section">
+      <h2>撮影場所（滋賀県内のWrapi設置箇所）</h2>
+      <div class="grid grid-3">
+
+        <!-- 西方寺カード -->
+        <a href="https://www.google.com/maps/search/?api=1&query=滋賀県草津市青地町1146" target="_blank" rel="noopener" class="card-link">
+          <div class="card">
+            <img src="images/saihouji.jpg" alt="西方寺に設置されたWrapiピアノ">
+            <h3>草津市｜西方寺</h3>
+            <p class="note">静かな境内で趣のあるカットが撮れます。</p>
+            <p class="address">〒525-0041 草津市青地町1146</p>
+          </div>
+        </a>
+
+        <!-- 竜王アウトレットカード -->
+        <a href="https://www.google.com/maps/search/?api=1&query=三井アウトレットパーク滋賀竜王" target="_blank" rel="noopener" class="card-link">
+          <div class="card">
+            <img src="images/ryuou.JPG" alt="三井アウトレットパーク竜王に設置されたWrapiピアノ">
+            <h3>アウトレットパーク竜王</h3>
+            <p class="note">買い物ついでに立寄りやすいロケーション。</p>
+            <p class="address">〒520-2551 蒲生郡竜王町薬師字砂山1178-694</p>
+          </div>
+        </a>
+
+        <!-- 近江今津駅カード -->
+        <a href="https://www.google.com/maps/search/?api=1&query=近江今津駅" target="_blank" rel="noopener" class="card-link">
+          <div class="card">
+            <img src="images/imadu.jpeg" alt="近江今津駅に設置されたWrapiピアノ">
+            <h3>高島市｜近江今津駅</h3>
+            <p class="note">駅ならではの“まちのピアノ”感が出せます。</p>
+            <p class="address">〒520-1631 高島市今津町名小路1丁目9-1</p>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <section id="entry" class="section">
+      <h2>応募フォーム（先着5組）</h2>
+      <div id="msg" class="hidden"></div>
+      <!-- ▼▼ FormspreeのフォームIDを置き換えてください ▼▼ -->
+      <form id="wrapiPhotoForm" method="post" action="https://formspree.io/f/your_form_id" novalidate>
+        <fieldset class="card" style="border:0">
+          <legend style="font-weight:700;margin-bottom:8px">保護者さま情報</legend>
+          <label>お名前 <span class="helper">例：山田 花子</span>
+            <input type="text" name="guardian_name" required />
+          </label>
+          <label>ご連絡先（電話またはメール）
+            <input type="text" name="guardian_contact" required />
+          </label>
+          <label>ご参加区分
+            <select name="participant_type" required>
+              <option value="">選択してください</option>
+              <option>ドレミぱーく在籍</option>
+              <option>ドレミぱーく卒業</option>
+            </select>
+          </label>
+        </fieldset>
+
+        <fieldset class="card" style="border:0">
+          <legend style="font-weight:700;margin-bottom:8px">お子さま情報</legend>
+          <label>お子さまのお名前（複数可）
+            <input type="text" name="child_names" placeholder="例：太郎（6歳）、花（2歳）" required />
+          </label>
+          <label>演奏者
+            <select name="player">
+              <option value="">選択してください</option>
+              <option>兄／姉が弾く</option>
+              <option>親子で椅子に座る（1〜3歳）</option>
+              <option>その他（自由記入）</option>
+            </select>
+          </label>
+          <label>その他（自由記入）
+            <textarea name="player_note" rows="2" placeholder="曲の希望や配慮事項など"></textarea>
+          </label>
+        </fieldset>
+
+        <fieldset class="card" style="border:0">
+          <legend style="font-weight:700;margin-bottom:8px">希望の撮影場所・日時</legend>
+          <label>撮影場所（第1希望）
+            <select name="loc1" required>
+              <option value="">選択してください</option>
+              <option>草津市 西方寺</option>
+              <option>竜王 三井アウトレットパーク</option>
+              <option>近江今津駅</option>
+            </select>
+          </label>
+          <label>撮影場所（第2希望・任意）
+            <select name="loc2">
+              <option value="">—</option>
+              <option>草津市 西方寺</option>
+              <option>竜王 三井アウトレットパーク</option>
+              <option>近江今津駅</option>
+            </select>
+          </label>
+          <label>ご都合の良い日時（3候補まで）
+            <textarea name="date_candidates" rows="2" placeholder="例：9/7(土) 午前／9/8(日) 午後／9/14(土) 午前 など" required></textarea>
+          </label>
+        </fieldset>
+
+        <fieldset class="card" style="border:0">
+          <legend style="font-weight:700;margin-bottom:8px">同意事項</legend>
+          <label class="terms">
+            <input type="checkbox" name="consent_use" required />
+            <span>撮影写真を <strong>Wrapi公式SNS・Web・広報資料</strong>、および <strong>地域メディア（例：しがトコ）</strong> で紹介する場合があることに同意します（個人名は記載しません）。</span>
+          </label>
+          <label class="terms">
+            <input type="checkbox" name="consent_minor" required />
+            <span>未成年の肖像利用について、保護者として承諾します。</span>
+          </label>
+          <label class="terms">
+            <input type="checkbox" name="consent_access" required />
+            <span>撮影場所までの交通費は <strong>各ご家庭でご負担</strong> をお願いします。</span>
+          </label>
+        </fieldset>
+
+        <button class="btn btn-primary" type="submit" id="btn_submit">この内容で送信する</button>
+      </form>
+    </section>
+
+    <section id="rules" class="section">
+      <h2>ガイドライン・注意事項</h2>
+      <div class="card">
+        <ol class="list">
+          <li><strong>募集枠：</strong>先着5組。応募状況により締切前に終了する場合があります。</li>
+          <li><strong>撮影の目的：</strong>Wrapiの活動を地域に広く知っていただくため。公式SNSやWeb、広報資料、地域メディア掲載に使用します。個人名は記載しません。</li>
+          <li><strong>写真のお渡し：</strong>記念として、後日データ（1〜3点程度）をお渡しします。</li>
+          <li><strong>交通費：</strong>各ご家庭の自己負担となります。</li>
+          <li><strong>日程調整：</strong>こちらから候補日をご案内し、合意の上で確定します。天候・混雑等により安全に配慮して変更をお願いする場合があります。</li>
+          <li><strong>被写体の配慮：</strong>他のお客様の写り込みには十分配慮し、必要に応じて角度調整・一部ぼかし等を行います。</li>
+          <li><strong>キャンセル：</strong>体調不良などやむを得ない場合は事前にご連絡ください。柔軟に再調整します。</li>
+          <li><strong>本企画の変更：</strong>内容は予告なく変更・終了する場合があります。</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>お問い合わせ</h2>
+      <div class="card">
+        <p>お電話：<a href="tel:090-4296-1913" id="tel_link">こちらから</a> ／ LINE：<a href="https://lin.ee/MMgT872" id="line_link" target="_blank" rel="noopener">公式LINEで問い合わせ</a></p>
+        <p class="note">受付時間：10:30–19:30（月曜定休）／ 運営：株式会社トリイ</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="sticky-cta">
+    <a class="btn btn-primary" href="#entry">応募フォームへ（1分で入力）</a>
+  </div>
+
+  <footer class="container footer">
+    <p>©2025 Torii Music Co., Ltd. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function pushEvent(name, params){ if(typeof gtag==='function'){ gtag('event', name, params||{}); } }
+    document.getElementById('cta_form').addEventListener('click',()=>pushEvent('wrapi_photo2025_cta_form'));
+    document.getElementById('cta_how').addEventListener('click',()=>pushEvent('wrapi_photo2025_cta_how'));
+    document.getElementById('tel_link').addEventListener('click',()=>pushEvent('tel_click_wrapi_photo2025'));
+    document.getElementById('line_link').addEventListener('click',()=>pushEvent('line_click_wrapi_photo2025'));
+
+    const form = document.getElementById('wrapiPhotoForm');
+    const msg  = document.getElementById('msg');
+    const submitButton = document.getElementById('btn_submit');
+
+    form.addEventListener('submit', async (e)=>{
+      e.preventDefault();
+      const required = ['guardian_name','guardian_contact','participant_type','child_names','loc1','date_candidates','consent_use','consent_minor','consent_access'];
+      for(const name of required){
+        const el = form.querySelector(`[name="${name}"]`);
+        const ok = el && (el.type==='checkbox' ? el.checked : (el.value||'').trim());
+        if(!ok){
+          msg.className='error';
+          msg.textContent='未入力の必須項目があります。ご確認ください。';
+          msg.scrollIntoView({behavior:'smooth'});
+          pushEvent('wrapi_photo2025_submit_error',{field:name});
+          return;
+        }
+      }
+      const formData = new FormData(form);
+      const action = form.getAttribute('action');
+      submitButton.disabled = true; submitButton.textContent='送信中...';
+      try{
+        pushEvent('wrapi_photo2025_submit_attempt');
+        const res = await fetch(action, { method:'POST', body:formData, headers:{'Accept':'application/json'} });
+        if(res.ok){
+          msg.className='success';
+          msg.innerHTML='送信を受け付けました。追って担当よりご連絡いたします。';
+          msg.scrollIntoView({behavior:'smooth'});
+          pushEvent('form_submit_wrapi_photo2025');
+          form.reset();
+        }else{ throw new Error('Network response was not ok'); }
+      }catch(err){
+        msg.className='error';
+        msg.textContent='送信に失敗しました。時間を置いて再度お試しください。';
+        pushEvent('wrapi_photo2025_submit_fail');
+      }finally{
+        submitButton.disabled=false; submitButton.textContent='この内容で送信する';
+      }
+    });
+  </script>
+</body>
+</html>
